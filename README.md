@@ -24,6 +24,7 @@ Minecraft adapter for [koishi](https://github.com/koishijs/koishi)
 2. 整个服务器将会被当作同一个频道  
 3. private 消息的实现使用了 /tell 指令，如果需要使用 private 消息请在服务器里安装 ess 插件  
 4. 由于 mineflayer 的原理是模拟一个玩家，所以该用户会被看见或者杀死，您可以给这个玩家设置其他的出生点、给予创造模式或者观察者模式等来避免这些问题  
+5. 使用 mineflayer 来实现该 adapter ，支持的 Minecraft 版本请参考 [mineflayer](https://github.com/PrismarineJS/mineflayer)  
 
 # TODO  
 
