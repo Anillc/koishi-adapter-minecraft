@@ -1,0 +1,26 @@
+{
+  "name": "koishi-adapter-minecraft",
+  "version": "1.0.0",
+  "description": "minecraft adapter for koishi",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Anillc/koishi-adapter-minecraft.git",
+  "author": "anillc",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "coffee -o lib -c src"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  },
+  "dependencies": {
+    "koishi-utils": "^4.2.2",
+    "mineflayer": "^3.7.0",
+    "qface": "^1.2.0"
+  },
+  "peerDependencies": {
+    "koishi-core": "^3.11.2"
+  }
+}
