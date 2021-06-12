@@ -2,7 +2,7 @@
 
 Minecraft adapter for [koishi](https://github.com/koishijs/koishi)  
 
-# 使用方法  
+## 使用方法  
 
 1. 添加 `koishi-adapter-koishi` 到您的项目  
 2. 导入 `koishi-adapter-koishi` 并在您的配置文件内新建一个机器人  
@@ -18,7 +18,7 @@ Minecraft adapter for [koishi](https://github.com/koishijs/koishi)
 }
 ```  
 
-# 注意事项  
+## 注意事项  
 
 1. 可能会有 bug， 如果遇到问题请提交您的 issue  
 2. 整个服务器将会被当作同一个频道  
@@ -26,10 +26,10 @@ Minecraft adapter for [koishi](https://github.com/koishijs/koishi)
 4. 由于 mineflayer 的原理是模拟一个玩家，所以该用户会被看见或者杀死，您可以给这个玩家设置其他的出生点、给予创造模式或者观察者模式等来避免这些问题  
 5. 使用 mineflayer 来实现该 adapter ，支持的 Minecraft 版本请参考 [mineflayer](https://github.com/PrismarineJS/mineflayer)  
 
-# TODO  
+## TODO  
 
 1. 收到 private 消息的时候处理为 private 消息  
 
-# license  
+## license  
 
 MIT  
